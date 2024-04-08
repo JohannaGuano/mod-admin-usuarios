@@ -1,0 +1,23 @@
+.mat-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Esto crea una sombra con desplazamiento x=0, y=4px, desenfoque de 8px y opacidad de 20% */
+    transition: box-shadow 0.3s; /* Esto agrega una transición suave a la sombra */
+  }
+  
+  .mat-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Esto cambia la sombra cuando el mouse está sobre el card */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Combina los bordes de las celdas para que no se superpongan */
+  }
+  
+  th, td {
+    border-bottom: 1px solid black;
+    padding: 8px; /* Agrega un espacio de relleno alrededor del contenido de las celdas */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Agrega un color de fondo para las celdas del encabezado */
+  }
